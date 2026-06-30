@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco Shield — Beat Plastic Pollution</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="leaf-icon">🌿</span>
+      Eco Shield
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="issue.html">Global Issue</a></li>
+      <li><a href="action.html">Take Action</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <span class="hero-badge">🌍 Environmental Awareness</span>
+      <h1>Eco <span>Shield</span></h1>
+      <p class="hero-sub">Together We Can Beat Plastic Pollution</p>
+      <p>
+        Every piece of plastic ever made still exists today. Our planet is drowning in 
+        plastic waste — but together, we have the power to turn the tide. Join Eco Shield 
+        and be part of the solution.
+      </p>
+      <div class="hero-btns">
+        <a href="issue.html" class="btn btn-primary">🌊 Learn More</a>
+        <a href="action.html" class="btn btn-outline">🤝 Take Action</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT SECTION ============ -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Understanding the Crisis</span>
+        <h2>What is Plastic Pollution?</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h3>A Growing Threat to Our Planet</h3>
+          <p>
+            Plastic pollution occurs when plastic objects and particles accumulate in the 
+            environment, harming wildlife, wildlife habitats, and humans. Plastics are 
+            inexpensive and durable, making them popular — but these same qualities make 
+            them a serious environmental problem.
+          </p>
+          <p>
+            Unlike organic materials, plastic does not biodegrade. Instead, it photodegrades, 
+            breaking down into smaller and smaller pieces called <strong>microplastics</strong> 
+            that persist in the environment for hundreds — sometimes thousands — of years.
+          </p>
+          <p>
+            From remote mountain peaks to the deepest ocean trenches, plastic has been found 
+            everywhere on Earth. It contaminates our food chain, poisons our oceans, and 
+            endangers the survival of countless species — including our own.
+          </p>
+          <a href="issue.html" class="btn btn-primary" style="margin-top:1rem;">🔍 Explore the Issue</a>
+        </div>
+        <div class="about-visual">
+          <div class="big-icon">🌊</div>
+          <p>Plastic pollution affects every ocean, river, and ecosystem on Earth</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATISTICS ============ -->
+  <section class="section section-mist">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">The Numbers Are Alarming</span>
+        <h2>Plastic Pollution by the Numbers</h2>
+        <div class="divider"></div>
+        <p>These staggering facts reveal why we must act now</p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon">🌊</div>
+          <span class="stat-num">8 Million+</span>
+          <p>Tons of plastic enter our oceans <strong>every single year</strong></p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">⏳</div>
+          <span class="stat-num">450 Years</span>
+          <p>Time for a single plastic bottle to <strong>fully decompose</strong></p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">🍶</div>
+          <span class="stat-num">1 Million</span>
+          <p>Plastic bottles bought around the world <strong>every minute</strong></p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">🐠</div>
+          <span class="stat-num">1 Million+</span>
+          <p>Sea birds and <strong>100,000 marine animals</strong> killed by plastic annually</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">♻️</div>
+          <span class="stat-num">Only 9%</span>
+          <p>Of all plastic ever produced has been <strong>recycled</strong></p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">🏭</div>
+          <span class="stat-num">400 MT</span>
+          <p>Metric tons of plastic produced <strong>every year worldwide</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ACCORDION / EFFECTS ============ -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">The Impact</span>
+        <h2>Effects of Plastic Pollution</h2>
+        <div class="divider"></div>
+        <p>Click each section to learn more about the devastating consequences</p>
+      </div>
+      <div class="accordion" style="max-width:780px;margin:0 auto;">
+
+        <div class="accordion-item" id="acc1">
+          <button class="accordion-header" onclick="toggleAcc('acc1')">
+            <span class="acc-icon">🐬</span>
+            Effects on Marine Life
+            <span class="accordion-arrow">▾</span>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <p>Ocean plastic is devastating marine ecosystems worldwide. Sea turtles mistake plastic bags for jellyfish, their primary food source. Seabirds feed plastic pieces to their chicks, causing starvation. Whales have been found dead with stomachs full of plastic debris.</p>
+              <br>
+              <p>Microplastics — tiny plastic fragments — are now found in the stomachs of fish, shellfish, and nearly all marine species studied. These particles carry toxic chemicals that accumulate in the food chain, becoming more concentrated in predators at the top — including humans who eat seafood.</p>
+              <br>
+              <p><strong>Key impacts:</strong> Entanglement in plastic nets and rings, starvation from eating plastic, habitat destruction from plastic smothering coral reefs, and toxic contamination of the entire marine food chain.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item" id="acc2">
+          <button class="accordion-header" onclick="toggleAcc('acc2')">
+            <span class="acc-icon">👨‍👩‍👧</span>
+            Effects on Humans
+            <span class="accordion-arrow">▾</span>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <p>Research shows that humans consume an average of 5 grams of microplastics every week — roughly the weight of a credit card. These particles enter our bodies through the food we eat, the water we drink, and even the air we breathe.</p>
+              <br>
+              <p>Plastic contains and absorbs harmful chemicals including BPA (bisphenol A), phthalates, and dioxins. These are known endocrine disruptors that can interfere with hormones, cause developmental problems in children, and increase cancer risk.</p>
+              <br>
+              <p><strong>Key impacts:</strong> Hormone disruption, increased cancer risk, developmental problems in children, respiratory issues from microplastic inhalation, and contamination of drinking water sources globally.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item" id="acc3">
+          <button class="accordion-header" onclick="toggleAcc('acc3')">
+            <span class="acc-icon">🌡️</span>
+            Effects on Climate
+            <span class="accordion-arrow">▾</span>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <p>Plastic and climate change are deeply connected. The production of plastic relies heavily on fossil fuels — oil and natural gas. Manufacturing plastic releases significant amounts of greenhouse gases, contributing to global warming at every stage of its life cycle.</p>
+              <br>
+              <p>When plastic is incinerated (burned) to dispose of it, it releases toxic gases and carbon dioxide. When it breaks down in sunlight, it emits methane and ethylene — powerful greenhouse gases. Even microplastics floating in the ocean affect the ability of plankton to absorb CO₂.</p>
+              <br>
+              <p><strong>Key impacts:</strong> Plastic production emits 850 million metric tons of greenhouse gases annually. By 2050, plastic could be responsible for 13% of the total global carbon budget if production continues at the current rate.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CALL TO ACTION BANNER ============ -->
+  <section class="section section-dark" style="text-align:center;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" style="color:var(--earth);">Be the Change</span>
+        <h2>Ready to Make a Difference?</h2>
+        <div class="divider"></div>
+        <p>Explore our action plan and take the pledge to reduce plastic in your life starting today.</p>
+      </div>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:1.5rem;">
+        <a href="action.html" class="btn btn-primary">🌱 See Action Plan</a>
+        <a href="issue.html" class="btn btn-outline">📖 Read the Full Issue</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>🌿 Eco Shield</h3>
+        <p>Raising awareness about plastic pollution and inspiring action for a cleaner, greener planet. Every small change makes a big difference.</p>
+        <div class="social-icons">
+          <a href="#" title="Facebook">🌍</a>
+          <a href="#" title="Instagram">📸</a>
+          <a href="#" title="Twitter">🐦</a>
+          <a href="#" title="YouTube">▶️</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">🏠 Home</a></li>
+          <li><a href="issue.html">🌊 Global Issue</a></li>
+          <li><a href="action.html">🌱 Take Action</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://www.greenpeace.org" target="_blank">Greenpeace</a></li>
+          <li><a href="https://www.wwf.org" target="_blank">WWF</a></li>
+          <li><a href="https://theoceancleanup.com" target="_blank">The Ocean Cleanup</a></li>
+          <li><a href="https://www.unep.org" target="_blank">UNEP</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Eco Shield — Class 8 Project &nbsp;|&nbsp; Made with 💚 by <strong>[Your Name]</strong> &nbsp;|&nbsp; Protecting Our Planet, One Step at a Time</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <a href="#" class="back-top" id="backTop" aria-label="Back to top">↑</a>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast"></div>
+
+  <!-- ============ SCRIPTS ============ -->
+  <script>
+    // Hamburger Menu
+    const toggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+    // Back to Top
+    const backTop = document.getElementById('backTop');
+    window.addEventListener('scroll', () => {
+      backTop.classList.toggle('visible', window.scrollY > 400);
+    });
+
+    // Accordion
+    function toggleAcc(id) {
+      const item = document.getElementById(id);
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.accordion-item').forEach(el => el.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    }
+
+    // Scroll fade-in
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.opacity = '1';
+          e.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.stat-card, .card, .accordion-item, .about-text').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(28px)';
+      el.style.transition = 'opacity .6s ease, transform .6s ease';
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
